@@ -57,7 +57,7 @@ Una cámara fija situada a 1.6 unidades de altura con una vista frontal inicial.
 
 ![codigo](https://github.com/BritneyG26/realidadvirtual/blob/main/code6.png)
 
-### Modelo del bosque encantado
+### Modelo del bosque encantado en Blender
 
-![codigo]()
+![codigo](https://github.com/BritneyG26/realidadvirtual/blob/main/modelo.png)
 
