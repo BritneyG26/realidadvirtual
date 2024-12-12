@@ -19,3 +19,12 @@ Un entorno de realidad virtual detalladamente diseñado en Blender, donde cada e
 El bosque encantado virtual se contruyó mediante un modelado del terreno base en Blender. Aplicación de texturas de césped con la herramienta de hair. 
 
 ### Código de html y A-Frame
+El archivo HTML utiliza el framwork A´Frame para crear una escena 3D interactiva que se puede visualizar directamente enn un navegador web. La escena está diseñada para simular un bosque nocturno con iluminación personalizada y animaciones de luciérnagas. 
+
+#### Estructura general
+Se importa la biblioteca de A´Frame para habilitar la ccreación de elementos 3D y realidad virtual.
+<a-scene> contiene todos los elementos de la escena.
+
+- Se define un modelo 3D en formato .glb con el ID modelo, el cual representa el bosque.
+![](realidadvirtual/
+
