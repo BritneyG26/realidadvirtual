@@ -26,5 +26,5 @@ Se importa la biblioteca de A´Frame para habilitar la ccreación de elementos 3
 <a-scene> contiene todos los elementos de la escena.
 
 - Se define un modelo 3D en formato .glb con el ID modelo, el cual representa el bosque.
-![](realidadvirtual/
+![codigo](
 
