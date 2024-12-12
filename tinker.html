@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- assets -->
+      <a-assets>
+        <a-asset-item id="modelo" src="modelo/bosque1.glb"></a-asset-item>
+      </a-assets>
+      
+      <!-- Cielo -->
+      <a-sky color="#304870"></a-sky> 
+      
+      <!-- Luz ambiente general -->
+      <a-entity light="type: ambient; color: #d6e6ff; intensity: 0.6"></a-entity> 
+      
+      <!-- Luz direccional principal (luz lunar) -->
+      <a-entity light="type: directional; color: #ffffff; intensity: 1.2" position="5 10 -3"></a-entity>
+      
+      <!-- Luz de relleno (áreas más oscuras) -->
+      <a-entity light="type: point; color: #cdeeff; intensity: 0.5" position="-2 3 1"></a-entity>
+      
+      <!-- Luciernagas -->
+      <a-entity position="0 0 0">
+        <a-entity 
+          geometry="primitive: sphere; radius: 0.05"
+          material="color: #87CEEB
+                   emissive: #87CEEB; 
+                    emissiveIntensity: 5; 
+                    opacity: 0.8"
+          animation__position="property: position; 
+                                from: -10 2 -5; 
+                                to: 10 4 5; 
+                                dur: 8000; 
+                                easing: easeInOutQuad; 
+                                loop: true; 
+                                dir: alternate"
+        ></a-entity>
+        
+        <a-entity 
+          geometry="primitive: sphere; radius: 0.05"
+          material="color: #87CEEB; 
+                    emissive: #87CEEB; 
+                    emissiveIntensity: 5; 
+                    opacity: 0.8"
+          animation__position="property: position; 
+                                from: 5 3 -3; 
+                                to: -5 5 3; 
+                                dur: 6000; 
+                                easing: easeInOutQuad; 
+                                loop: true; 
+                                dir: alternate"
+        ></a-entity>
+        
+        <a-entity 
+          geometry="primitive: sphere; radius: 0.05"
+          material="color: #87CEEB; 
+                    emissive: #87CEEB; 
+                    emissiveIntensity: 5; 
+                    opacity: 0.8"
+          animation__position="property: position; 
+                                from: -3 4 2; 
+                                to: 3 2 -2; 
+                                dur: 7000; 
+                                easing: easeInOutQuad; 
+                                loop: true; 
+                                dir: alternate"
+        ></a-entity>
+      </a-entity>
+      
+      <!-- Modelo -->
+      <a-entity
+        gltf-model="#modelo"
+        position="0 0 0"
+        scale="1 1 1"
+        rotation="0 0 0"
+      ></a-entity>
+      
+      <!-- Cámara -->
+      <a-camera position="0 1.6 3"></a-camera>
+    </a-scene>
+  </body>
+</html>
+
