@@ -10,7 +10,7 @@ Un ecosistema virtual renderizado con técnicas de modelado 3D que recrea la atm
 ### Descripción
 Un entorno de realidad virtual detalladamente diseñado en Blender, donde cada elemento ha sido modelado y compuesto. El proyecto incluye:
 1. Terreno base personalixado desde cero.
-2. Texturixado de cesped.
+2. Texturizado de cesped.
 3. Modelos 3D importados de Sketchfab.
 4. Iluminación configurada con técnicad de Blender.
 5. Implementación del ambiente virtual utilizando A-Frame para interactividad y visualización 3D en navegador. 
