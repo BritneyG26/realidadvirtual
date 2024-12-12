@@ -25,6 +25,11 @@ El archivo HTML utiliza el framwork A´Frame para crear una escena 3D interactiv
 Se importa la biblioteca de A´Frame para habilitar la ccreación de elementos 3D y realidad virtual.
 <a-scene> contiene todos los elementos de la escena.
 
-- Se define un modelo 3D en formato .glb con el ID modelo, el cual representa el bosque.
-![codigo](
+1. Se define un modelo 3D en formato .glb con el ID modelo, el cual representa el bosque.
+  
+![codigo](https://github.com/BritneyG26/realidadvirtual/blob/main/code1.png)
+
+2. Se establece un cielo estático con un color azul oscuro para simular un ambiente nocturno.
+
+![codigo]()
 
